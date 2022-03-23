@@ -717,6 +717,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _money: 0
   _moneyText: {fileID: 749157538}
+  shop1prize: 0
+  shop1text: {fileID: 0}
+  shop2prize: 0
+  shop2text: {fileID: 0}
 --- !u!4 &1292272627
 Transform:
   m_ObjectHideFlags: 0
@@ -927,42 +931,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3396298386400627692, guid: 3213c09b3f690624aad4c2af55204163, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.018155904
-      objectReference: {fileID: 0}
-    - target: {fileID: 3396298386400627692, guid: 3213c09b3f690624aad4c2af55204163, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.18609825
-      objectReference: {fileID: 0}
-    - target: {fileID: 3396298386400627692, guid: 3213c09b3f690624aad4c2af55204163, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.8018868
-      objectReference: {fileID: 0}
-    - target: {fileID: 3396298386400627694, guid: 3213c09b3f690624aad4c2af55204163, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3396298386400627694, guid: 3213c09b3f690624aad4c2af55204163, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.030596506
-      objectReference: {fileID: 0}
-    - target: {fileID: 3396298386400627694, guid: 3213c09b3f690624aad4c2af55204163, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3396298386409693102, guid: 3213c09b3f690624aad4c2af55204163, type: 3}
-      propertyPath: m_Color.b
-      value: 0.10594514
-      objectReference: {fileID: 0}
-    - target: {fileID: 3396298386409693102, guid: 3213c09b3f690624aad4c2af55204163, type: 3}
-      propertyPath: m_Color.g
-      value: 0.4894042
-      objectReference: {fileID: 0}
-    - target: {fileID: 3396298386409693102, guid: 3213c09b3f690624aad4c2af55204163, type: 3}
-      propertyPath: m_Color.r
-      value: 0.9056604
-      objectReference: {fileID: 0}
     - target: {fileID: 3396298386415800974, guid: 3213c09b3f690624aad4c2af55204163, type: 3}
       propertyPath: m_Name
       value: w
