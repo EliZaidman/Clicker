@@ -6,8 +6,8 @@ using TMPro;
 public class Click : MonoBehaviour
 {
 
-    public int _money;
-    public TextMeshProUGUI _moneyText;
+    public int money;
+    public TextMeshProUGUI moneyText;
     void Start()
     {
         
@@ -16,11 +16,11 @@ public class Click : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _moneyText.text = _money.ToString();
+        moneyText.text = money.ToString();
     }
 
     public void RiseMoney()
     {
-        _money++;
+        money++;
     }
 }
