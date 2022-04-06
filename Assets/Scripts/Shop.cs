@@ -21,7 +21,7 @@ public class Shop : MonoBehaviour
         _strudelsText.text = _playerStrudels.ToString();
     }
 
-    public void Buy(GameObject gO)
+    public GameObject Buy(GameObject gO)
     {
         switch (gO.name)
         {
@@ -68,6 +68,8 @@ public class Shop : MonoBehaviour
             default:
                 break;
         }
+
+        return gO;
     }
 
     public void AddCurrency()
