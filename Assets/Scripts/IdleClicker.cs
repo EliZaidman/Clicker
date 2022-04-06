@@ -13,7 +13,7 @@ public class IdleClicker : MonoBehaviour
     public TextMeshProUGUI _shdrudelText;
 
 
-    public double shdrudelPlaceHolder;
+    public double shdrudel;
 
 
     public double shtrudalpersecond;
@@ -30,22 +30,23 @@ public class IdleClicker : MonoBehaviour
     {
         shtrudalpersecond = idleClickerUpgrade;
 
+        _shdrudelText.text = "Shtrudel: " + shdrudel.ToString("F0");
+
         _shdrudalCostPerSecText.text = shtrudalpersecond.ToString("F0") + "Shtrudel/s";
-        _shdrudelText.text = "Shtrudel: " + shdrudelPlaceHolder.ToString("F0");
 
         _idleClickerText.text = "Idle Clicker Upgrade 1\nCost: " + idleClickerUpgradeCost + "shdrudels\nPower: +1 shdrudel/s\nLevel: " + idleClickerUpgrade;
 
-        shdrudelPlaceHolder += shtrudalpersecond + Time.deltaTime;
+        shdrudel += shtrudalpersecond * Time.deltaTime;
 
     }
 
 
     public void BuyIdle()
     {
-        if (shdrudelPlaceHolder>= idleClickerUpgradeCost)
+        if (shdrudel >= idleClickerUpgradeCost)
         {
             idleClickerUpgrade++;
-            shdrudelPlaceHolder -= idleClickerUpgradeCost;
+            shdrudel -= idleClickerUpgradeCost;
             idleClickerUpgradeCost *= 1.07;
         }
         

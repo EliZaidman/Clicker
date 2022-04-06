@@ -546,7 +546,7 @@ MonoBehaviour:
   _idleClickerText: {fileID: 1368261847}
   _shdrudalCostPerSecText: {fileID: 1198505602}
   _shdrudelText: {fileID: 530038590}
-  shdrudelPlaceHolder: 0
+  shdrudel: 25
   shtrudalpersecond: 0
   idleClickerUpgrade: 0
   idleClickerUpgradeCost: 0
