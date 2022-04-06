@@ -544,12 +544,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _idleClickerText: {fileID: 1368261847}
-  _shdrudalCostPerSecText: {fileID: 1198505602}
+  _shdrudalPassiveCostText: {fileID: 1198505602}
   _shdrudelText: {fileID: 530038590}
   shdrudel: 25
-  shtrudalpersecond: 0
-  idleClickerUpgrade: 0
-  idleClickerUpgradeCost: 0
+  shtrudalPassive: 0
+  passiveUpgrade: 0
+  passiveUpgradeCost: 0
 --- !u!114 &457298381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1372,7 +1372,7 @@ GameObject:
   - component: {fileID: 1198505603}
   - component: {fileID: 1198505602}
   m_Layer: 5
-  m_Name: PerSec
+  m_Name: StrudelPassive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
