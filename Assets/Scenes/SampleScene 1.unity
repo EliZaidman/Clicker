@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 160155493}
   - component: {fileID: 160155492}
   - component: {fileID: 160155491}
+  - component: {fileID: 160155494}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -156,10 +157,10 @@ RectTransform:
   m_Father: {fileID: 266147385}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: 0}
-  m_SizeDelta: {x: 367.5595, y: 317.9987}
+  m_AnchorMin: {x: 0.558, y: 0.5553978}
+  m_AnchorMax: {x: 0.558, y: 0.5553978}
+  m_AnchoredPosition: {x: -17.013, y: -21}
+  m_SizeDelta: {x: 105.0473, y: 96.8607}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &160155491
 MonoBehaviour:
@@ -255,6 +256,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160155489}
   m_CullTransparentMesh: 1
+--- !u!95 &160155494
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160155489}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9fb65f06db91f2a418f6f06b36ed2fc2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &266147381
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +353,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &266147385
 RectTransform:
@@ -391,7 +411,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293, y: 309.95966}
+  m_AnchoredPosition: {x: -276, y: 309}
   m_SizeDelta: {x: 68.486, y: 77.0807}
   m_Pivot: {x: 0.5000001, y: 0.5}
 --- !u!114 &348735803
@@ -773,13 +793,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292272625}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b3b05fb1e1ee404da8794f43b3d4b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _money: 0
-  _moneyText: {fileID: 749157538}
+  money: 0
+  moneyText: {fileID: 0}
 --- !u!4 &1292272627
 Transform:
   m_ObjectHideFlags: 0
