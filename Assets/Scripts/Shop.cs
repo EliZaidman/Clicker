@@ -5,16 +5,8 @@ using TMPro;
 
 public class Shop : MonoBehaviour
 {
-    [SerializeField]
-    private TextMeshProUGUI _strudelsText;
-
-    [SerializeField]
-    private int _playerStrudels;
-
-    void Start()
-    {
-        
-    }
+    [SerializeField] private TextMeshProUGUI _strudelsText;
+    [SerializeField] private int _playerStrudels;
 
     void Update()
     {
@@ -70,9 +62,9 @@ public class Shop : MonoBehaviour
         }
     }
 
-    public void AddCurrency()
+    public void AddCurrency(int currencyToAdd)
     {
-        _playerStrudels += 20000;
-        print($"{_playerStrudels} + 20000");
+        _playerStrudels += currencyToAdd;
+        print($"{_playerStrudels} + {currencyToAdd}");
     }
 }
