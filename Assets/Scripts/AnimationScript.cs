@@ -27,6 +27,6 @@ public class AnimationScript : MonoBehaviour, IPointerClickHandler, IPointerEnte
     // Update is called once per frame
     void Update()
     {
-        if (button)
+        if (button) ;
     }
 }
