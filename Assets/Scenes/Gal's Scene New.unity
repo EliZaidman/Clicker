@@ -1692,13 +1692,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292272625}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b3b05fb1e1ee404da8794f43b3d4b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _money: 0
   _moneyText: {fileID: 0}
+  shop1prize: 0
+  shop1text: {fileID: 0}
+  shop2prize: 0
+  shop2text: {fileID: 0}
 --- !u!4 &1292272627
 Transform:
   m_ObjectHideFlags: 0

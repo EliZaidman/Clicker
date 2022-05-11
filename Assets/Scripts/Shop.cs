@@ -21,11 +21,11 @@ public class Shop : MonoBehaviour
         _strudelsText.text = _playerStrudels.ToString();
     }
 
-    public GameObject Buy(GameObject gO)
+    public void Buy(GameObject gO)
     {
-        switch (gO.name)
+        switch (gO.name.ToLower())
         {
-            case "Buy 10":
+            case "buy 10":
                 if (_playerStrudels >= 10)
                 {
                     _playerStrudels -= 10;
@@ -35,7 +35,7 @@ public class Shop : MonoBehaviour
                     print("Insufficient Strudels");
                 break;
 
-            case "Buy 200":
+            case "buy 200":
                 if (_playerStrudels >= 200)
                 {
                     _playerStrudels -= 200;
@@ -45,7 +45,7 @@ public class Shop : MonoBehaviour
                     print("Insufficient Strudels");
                 break;
 
-            case "Buy 3000":
+            case "buy 3000":
                 if (_playerStrudels >= 3000)
                 {
                     _playerStrudels -= 3000;
@@ -55,7 +55,7 @@ public class Shop : MonoBehaviour
                     print("Insufficient Strudels");
                 break;
 
-            case "Buy 40000":
+            case "buy 40000":
                 if (_playerStrudels >= 40000)
                 {
                     _playerStrudels -= 40000;
@@ -68,8 +68,6 @@ public class Shop : MonoBehaviour
             default:
                 break;
         }
-
-        return gO;
     }
 
     public void AddCurrency()
